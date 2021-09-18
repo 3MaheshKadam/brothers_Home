@@ -177,17 +177,33 @@ nav h3 {
   .nav_item {
     margin-top: 1rem;
   }
-  @media (max-width: 475px) {
-    .nav_item a {
-      font-size: 0.5rem;
-      line-height: 2;
-      /* font-weight: 700; */
-    }
-    .nav_item + .nav_item {
-      margin: 0.4rem;
-    }
-    .special_one {
-      margin: 0.4rem;
-    }
+}
+/* @media (max-width: 475px) {
+  .nav_item a {
+    font-size: 0.5rem;
+    line-height: 2;
+  }
+  .nav_item + .nav_item {
+    margin: 0.4rem;
+  }
+  .special_one {
+    margin: 0.4rem;
+  }
+  nav {
+    text-align: center;
+  }
+} */
+@media (max-width: 478px) {
+  .container {
+    width: 95%;
+  }
+  .nav_item + .nav_item {
+    margin: 0.4rem;
+  }
+  .special_one {
+    margin: 0.4rem;
+  }
+  .nav h3 {
+    text-align: center;
   }
 }
