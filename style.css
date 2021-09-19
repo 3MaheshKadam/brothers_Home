@@ -9,7 +9,8 @@ body {
 }
 :root {
   /* --color: rgb(14, 250, 250); */
-  color: orange;
+  /* color: orange; */
+  color: rgb(252, 50, 50);
 }
 :root {
   --colo: rgb(11, 167, 159);
@@ -36,8 +37,8 @@ header {
 .one {
   /* width: 100%; */
   /* background-color: rgb(41, 124, 124); */
-  background-color: rgba(252, 252, 119, 0.301);
-  /* background-color: rgb(247, 204, 204); */
+  /* background-color: rgba(252, 252, 119, 0.301); */
+  background-color: rgb(247, 204, 204);
   padding: 2rem 0;
 }
 
